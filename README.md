@@ -3,7 +3,9 @@
 
 # Сбока программ на C++
 
-  mkdir build
-  cd build
-  cmake ../cpp
-  make
+```
+mkdir build
+cd build
+cmake ../cpp
+make
+```
