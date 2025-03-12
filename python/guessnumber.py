@@ -3,7 +3,7 @@ import random
 
 secret = random.randint(1, 100)
 guess = 0
-while True:
+while guess != secret:
     guess = int(input("Введите число: "))
     if secret > guess:
         print("Загаданное число больше.")

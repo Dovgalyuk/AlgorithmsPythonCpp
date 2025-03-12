@@ -5,7 +5,7 @@ from dataclasses import dataclass
 @dataclass
 class Card:
     rank: int
-    suit: int
+    suit: str
 
 pictures = 'JQK'
 MAX = 21
